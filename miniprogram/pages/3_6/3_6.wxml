@@ -1,0 +1,26 @@
+<!--pages/3_6/3_6.wxml-->
+<navigation-bar title="3_6" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view class="box">
+<view class="title">成绩等级计算器</view>
+<view>请输入你的考试成绩</view>
+<input type="number" bindchange="scoreInput" placeholder="请在此输入成绩"/>
+<view wx:if="{{score>100||score<0}}">成绩输入有误</view>
+<view wx:elif="{{score>90}}">成绩等级：优秀</view>
+<view wx:elif="{{score>80}}">成绩等级：良好</view>
+<view wx:elif="{{score>70}}">成绩等级：中等</view>
+<view wx:elif="{{score>60}}">成绩等级：及格</view>
+<view wx:else>成绩等级：不及格</view>
+<view wx:if="{{score>100||score<0}}"></view>
+<view wx:elif="{{score>89}}">绩点4.0</view>
+<view wx:elif="{{score>84}}">绩点3.7</view>
+<view wx:elif="{{score>81}}">绩点3.3</view>
+<view wx:elif="{{score>77}}">绩点3.0</view>
+<view wx:elif="{{score>74}}">绩点2.7</view>
+<view wx:elif="{{score>71}}">绩点2.3</view>
+<view wx:elif="{{score>67}}">绩点2.0</view>
+<view wx:elif="{{score>65}}">绩点1.7</view>
+<view wx:elif="{{score>63}}">绩点1.5</view>
+<view wx:elif="{{score>59}}">绩点1.0</view>
+<view wx:else>绩点0.0</view>
+
+</view>

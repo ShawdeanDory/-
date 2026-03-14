@@ -1,0 +1,15 @@
+<!--pages/3_3/3_3.wxml-->
+<navigation-bar title="3_3" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view class="box">数据绑定实例
+<view>算数运算绑定：{{a}}+{{b}}+{{c}}={{a+b+c}}</view>
+<view>对象绑定--学号：{{student.stuID}}</view>
+<view>对象绑定--姓名：{{student.name}}</view>
+<view>对象绑定--生日：{{student.birthday}}</view>
+<view>数组绑定-arrey[0]：{{arrey[0]}}</view>
+<view>数组绑定-arrey[1]：{{arrey[1]}}</view>
+<view>数组绑定-arrey[2]：{{arrey[2]}}</view>
+<button style="flex: 1;" bind:tap="modify1">修改绑定数据1</button>
+<button style="flex: 1;" bind:tap="modify2">修改绑定数据2</button>
+
+
+</view>

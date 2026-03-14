@@ -1,0 +1,11 @@
+<!--pages/3_9/3_9.wxml-->
+<navigation-bar title="3_9" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view class="box">
+<view class="title">模板的定义和引用</view>
+<import src="/pages/template.wxml"/>
+<template is="student" data="{{...student01}}"/>
+--------------------
+<template is="student" data="{{...student02}}"/>
+--------------------
+<template is="student" data="{{name:'王五',age:'20',gender:'男'}}"/>
+</view>

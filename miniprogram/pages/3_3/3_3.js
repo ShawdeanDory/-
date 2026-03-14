@@ -1,0 +1,40 @@
+// pages/3_3/3_3.js
+Page({
+data:{
+    a:100000,
+    b:10000,
+    c:4514,
+    student:{
+        stuID:'amysddl',
+        name:'侯国玉',
+        birthday:'1996-3-8'
+    },
+    arrey:['人以侯为尊','疆以国为广','石以玉为美']
+},
+modify1:function(){
+    this.setData({
+        a:100,
+        b:200,
+        c:300,
+        student:{
+            stuID:'amns',
+        name:'侯国玉',
+        birthday:'1996-3-8'
+        },
+        arrey:['人以侯为尊','疆以国为广','石以玉为美']
+    })
+},
+modify2:function(){
+    this.setData({
+    a:100000,
+    b:10000,
+    c:4514,
+    student:{
+        stuID:'amysddl',
+        name:'侯国玉',
+        birthday:'1996-3-8'
+    },
+    arrey:['人以侯为尊','疆以国为广','石以玉为美']
+})
+}
+})

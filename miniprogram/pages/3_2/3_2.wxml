@@ -1,0 +1,3 @@
+<!--pages/3_2/3_2.wxml-->
+<navigation-bar title="3_2" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view class="title" bind:tap="sddl">点击输入文本</view>
