@@ -1,4 +1,5 @@
-# SHU-Utility-MiniProgram 
+# SHU-Utility-MiniProgram Says-Kotowari-CCB
+
 
 本项目是一个基于微信小程序原生框架开发的综合性应用，包含了**上海大学《移动应用设计与开发》课程作业**以及个人自研的实用工具集。
 
